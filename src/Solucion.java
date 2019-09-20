@@ -27,7 +27,7 @@ class Calcularold {
 	 ArrayList<ArrayList> haha= new ArrayList<ArrayList>();
 	 HashSet<ArrayList> hash= new HashSet<ArrayList>();
 	
-	public void Resolverold (ManejoCadenaold Ent) {
+	public void Resolverold (ManejoCadenaold Ent ) {
 		
 		
 		int t=Integer.parseInt(Ent.next());
@@ -92,7 +92,9 @@ class Calcularold {
 								if((int)list.get(2)>=z1 && z2>= (int)list.get(2)){
 									respuesta+=arreglo[(int)list.get(0)][(int)list.get(1)][(int)list.get(2)];
 									
+								
 									System.out.println(" "+respuesta);
+									//return respuesta;
 								}
 							}
 						}
